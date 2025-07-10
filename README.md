@@ -25,8 +25,11 @@ Este é um projeto desenvolvido como parte do meu plano de estudos em HTML e CSS
 
 ## 🚀 Como visualizar
 
-1. Baixe os arquivos ou clone o repositório
-2. Abra o arquivo `index.html` em seu navegador
+O projeto pode ser visualizado através do GitHub Pages:
+
+🔗 [https://gabrielacaluz.github.io/**projeto-Gabriela-Caluz**](https://gabrielacaluz.github.io/projeto-Lotus/)
+
+---
 
 ---
 
