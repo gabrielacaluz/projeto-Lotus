@@ -1,52 +1,61 @@
-# 🛍️ Projeto Lotus - Vitrine de Produtos – Gabriela Caluz
+# 🌸 Projeto Lotus - Vitrine de Produtos – Gabriela Caluz
 
-Este é um projeto desenvolvido como parte do meu plano de estudos em HTML e CSS. O objetivo é criar uma página de **vitrine de produtos**, organizada com **Flexbox** e adaptável para diferentes tamanhos de tela usando **Media Queries**.
+Este é um projeto desenvolvido como parte do meu plano de estudos em **HTML**, **CSS** e agora com introdução ao **JavaScript**. O objetivo é criar uma vitrine de perfumes e cosméticos com uma experiência de navegação agradável e interativa, simulando um site real de e-commerce.
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - Exibição de produtos com imagem, nome, categoria e aroma
-- Layout organizado com Flexbox
-- Design limpo e suave
-- **Responsividade**: adapta-se a celulares e telas menores
+- Menu superior com navegação para:
+  - **Vitrine**
+  - **Sobre Nós**
+  - **Contato**
+- **Formulário de contato** funcional (frontend), com campos de nome, e-mail e mensagem
+- Layout estruturado com **Flexbox**
+- Design limpo, suave e moderno
+- **Responsividade**: adaptado para diferentes tamanhos de tela usando Media Queries
+- Estrutura de navegação interativa com **JavaScript**
 
 ---
 
-## 🧰 Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - HTML5
 - CSS3
   - `display: flex`
-  - `flex-wrap`, `gap`, `justify-content`
-  - `@media (max-width: 600px)` para responsividade
+  - `gap`, `flex-wrap`, `justify-content`
+  - `@media` queries para responsividade
+- JavaScript
+  - Manipulação de DOM para alternar entre abas de navegação
 
 ---
 
-## 🚀 Como visualizar
+## Como visualizar
 
-O projeto pode ser visualizado através do GitHub Pages:
+Você pode acessar o projeto pelo GitHub Pages:
 
-🔗 [https://gabrielacaluz.github.io/**projeto-Gabriela-Caluz**](https://gabrielacaluz.github.io/projeto-Lotus/)
-
----
+🔗 [https://gabrielacaluz.github.io/projeto-Lotus/](https://gabrielacaluz.github.io/projeto-Lotus/)
 
 ---
 
-## 👩🏻‍💻 Sobre mim
+## Sobre o projeto
 
-Olá! Me chamo Gabriela Caluz, sou estudante de Ciência da Computação e estou construindo minha carreira como desenvolvedora front-end.
-Minha paixão por tecnologia começou assistindo a vídeos sobre programação, e desde então venho estudando todos os dias para me tornar uma profissional preparada e criativa na área.
-Este projeto faz parte do meu plano de estudos em HTML e CSS, onde estou praticando os fundamentos da criação de interfaces web, com foco em responsividade, organização de código e boas práticas de desenvolvimento.
-Estou constantemente buscando aprender mais, desenvolver projetos práticos e compartilhar minha jornada com o mundo.
-Se quiser acompanhar meu crescimento ou entrar em contato comigo, segue abaixo meus links!
+A **Lotus SPA** é uma empresa fictícia criada em 2025, com o propósito de simular uma vitrine online de perfumes. O site oferece ao usuário uma maneira intuitiva de navegar por fragrâncias semelhantes às suas favoritas, com opções mais acessíveis. Este projeto foi idealizado para aplicar meus conhecimentos em desenvolvimento web e praticar a criação de sites completos, com navegação e seções funcionais.
+
+---
+
+## Sobre mim
+
+Olá! Me chamo **Gabriela Caluz**, sou estudante de Ciência da Computação e futura desenvolvedora front-end. Tenho estudado **HTML, CSS e JavaScript** com muita dedicação e venho aplicando esse conhecimento em projetos práticos como este.
+
+Minha paixão por tecnologia começou assistindo a vídeos de programação e, desde então, sigo construindo uma jornada de aprendizado contínuo. Busco sempre aplicar boas práticas, escrever códigos organizados e desenvolver soluções com foco no usuário.
+
+Se quiser acompanhar minha evolução ou trocar ideias, fique à vontade para me contatar:
 
 - GitHub: [@gabrielacaluz](https://github.com/gabrielacaluz)
 - Email: gabrielacaluz56@gmail.com
 
 ---
-
-## 📅 Status do projeto
-
-✅ Projeto em andamento – novas melhorias serão adicionadas conforme avanço no aprendizado (ex: menu com JavaScript, filtros de busca e organização por categorias).
+## Status do projeto - Finalizado ✅
 
