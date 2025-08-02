@@ -1,0 +1,156 @@
+.cabecalho{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid black;
+}
+
+.btn-menu{
+    
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    border: 0px;
+    margin: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+    top: 70px;
+    width: 350px;
+    height: 70%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+nav ul li {
+    padding: 10px;
+    border-bottom: 1px solid #000000;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding-left: 28px;
+    background: url('./dowload/seta\ direita.jpg') no-repeat right center;
+    background-size: 18px 18px;
+}
+
+.img-menu{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(250, 250, 250);
+}
+
+.logo{
+    align-content:flex-start;
+    height: 100%;
+}
+
+.titulo{
+    text-align: center;
+}
+body{
+    margin: 0%;
+}
+.info{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+    flex: 1;
+}
+
+.linha-divisoria {
+    width: 2px;
+    background: #e2e2e2;
+    margin: 0 10px;
+    /* altura automática */
+}
+.container{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
+    gap: 0;
+}
+.funcionamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+    flex: 1;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;  
+}
+h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.titulo-endereco{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.titulo-horario{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+button{
+    width: 200px;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 15px;
+    margin-top: 15px;
+}
+textarea{
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 15px;
+    margin-top: 15px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./contato.css">
+    <title>Contatos</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="./dowload/logo-lotus.jpg" alt="logo da marca" class="logo">
+            <nav class="navBar">
+                <button class="btn-menu" onclick="abrir()">
+                    <img src="./dowload/menu.png" class="img-menu">
+                </button>
+                <ul id="menu-lista" style="display: none;">
+                    <li><a href="./sobreNos.html">Sobre nós</a></li>
+                    <li><a href="./index.html">Vitrine</a></li>
+                    <li><a href="./contatos.html">Contatos</a></li>
+                </ul>
+            </nav>
+   </header>
+   <h1 class="titulo">Fale conosco</h1>
+   <main class="container">
+       <div class="info">
+            <p class="titulo-endereco">Nosso endereço</p>
+            <p class="endereco">Rua das Flores, 123 - Jardim das Rosas</p>
+            <p class="titulo-telefone">Telefone: (11) 1234-5678</p>
+            <p class="titulo-email">Email: lotusSPA@gmail.com</p>
+       </div>
+       <div class="linha-divisoria"></div>
+        <div class="funcionamento">
+            <p class="titulo-horario">Horário de funcioamento</p>
+            <p class="horario">Segunda à Sexta: 9h às 18h</p>
+            <p class="horario">Sábado: 9h às 14h</p>
+        </div>
+   </main>
+   <div class="formulario">
+        <form>
+            <h2 class="titulo-formulario">Formulário de contato</h2>
+            <input type="text" id="nome" name="nome" placeholder="Nome:" required>
+            <input type="email" id="email" name="email" placeholder="Email:" required>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Digite sua mensagem..." required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+   </div>     
+
+</body>
+<script src="./index.js"></script>
+</html>
