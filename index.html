@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./estilo.css">
-    <title>projeto 2</title>
+    <title>Lotus SPA</title>
 </head>
 <body>
    <header class="cabecalho">
         <img src="./dowload/logo-lotus.jpg" alt="logo da marca" class="logo">
-        <section class="menu">
-            <button class="btn-menu"><img src="./dowload/menu.png" class="img-menu"></button>
-        </section>
+            <nav class="navBar">
+                <button class="btn-menu" onclick="abrir()">
+                    <img src="./dowload/menu.png" class="img-menu">
+                </button>
+                <ul id="menu-lista" style="display: none;">
+                    <li><a href="./sobreNos.html">Sobre nós</a></li>
+                    <li><a href="./index.html">Vitrine</a></li>
+                    <li><a href="./contatos.html">Contatos</a></li>
+                </ul>
+            </nav>
    </header>
    <main class="container">
    <h1 class="titulo">Vitrine dos produtos</h1>
@@ -108,6 +115,7 @@
         </li>
    </ul>
    </main>
-   <footer class="rodape">&copy; 2025 - Gabriela caluz</footer>
+   <footer class="rodape">&copy; 2025 - Todos os direitos reservados à Gabriela caluz</footer>
 </body>
+<script src="./index.js"></script>
 </html>
