@@ -7,7 +7,6 @@
     border-bottom: 2px solid black;
 }
 
-/* Futuramente, este botão abrirá o menu lateral com links para "Sobre a empresa" e "Vitrine */
 .btn-menu{
     
     display: flex;
@@ -23,6 +22,33 @@
     width: 50px;
     height: 50px;
     background-color: rgb(250, 250, 250);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+    top: 70px;
+    width: 350px;
+    height: 70%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+nav ul li {
+    padding: 10px;
+    border-bottom: 1px solid #000000;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding-left: 28px;
+    background: url('./dowload/seta\ direita.jpg') no-repeat right center;
+    background-size: 18px 18px;
 }
 
 .logo{
